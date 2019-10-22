@@ -23,6 +23,7 @@ namespace Processi_Thread
             Thread.Sleep(500);
             Console.WriteLine("Main Thread");
 
+
         }
     }
 }
