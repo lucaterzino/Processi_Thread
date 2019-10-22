@@ -17,13 +17,14 @@ namespace Processi_Thread
                 Thread.Sleep(1000);
                 Console.WriteLine("MyThread è terminato");
             });
-        
+
             // Esecuzione di myThread myThread. Start ( ) ;
 
+            myThread.Start();
             Thread.Sleep(500);
             Console.WriteLine("Main Thread");
 
-
+            Console.ReadLine();
         }
     }
 }
